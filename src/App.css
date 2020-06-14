@@ -1,10 +1,15 @@
 .App {
+  display: flex;
   text-align: center;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.App-firstName {
+
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -22,7 +27,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
+} 
 
 .App-link {
   color: #61dafb;
